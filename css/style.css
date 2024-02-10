@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+    color: black;
+}
+.header{
+    display: flex;
+    position: fixed;
+    height: auto;
+    margin: 10px 5vw 10px 5vw;
+}
+.header-logo{
+    font-size: 25px;
+    width: 30vw;
+    margin-right: 10px;
+    font-weight: 700;
+}
+.header-navigation{
+    margin: auto 0;
+    display: flex;
+    justify-content: space-between;
+    width: 300px
+}
+.header-navigation__text{
+    font-size: 20px;
+}
